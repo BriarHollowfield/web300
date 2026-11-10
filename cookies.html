@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Файли cookie (Cookies)</title>
+  <!-- k300 -->
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --surface-top: #0f172a;
+      --surface-bottom: #1e293b;
+      --fg: #cbd5e1;
+      --heading-c: #f1f5f9;
+      --link-c: #38bdf8;
+      --line: #334155;
+      --table-head: #1e293b;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --surface-top: #f8fafc;
+        --surface-bottom: #eef2f7;
+        --fg: #334155;
+        --heading-c: #0f172a;
+        --link-c: #0284c7;
+        --line: #cbd5e1;
+        --table-head: #e2e8f0;
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(to bottom, var(--surface-top), var(--surface-bottom));
+      color: var(--fg);
+      line-height: 1.7;
+      min-height: 100vh;
+      min-height: 100dvh;
+    }
+
+    .wrap { max-width: 720px; padding: 48px 24px 64px; margin: 0 auto; }
+
+    h1 { font-size: 30px; margin-bottom: 24px; color: var(--heading-c); }
+    h2 { font-size: 20px; margin: 28px 0 10px; color: var(--heading-c); }
+    p, td { font-size: 15px; margin-bottom: 12px; }
+    a { text-decoration: none; color: var(--link-c); }
+    a:hover { text-decoration: underline; }
+
+    table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; }
+    th, td { border: 1px solid var(--line); padding: 10px 12px; font-size: 14px; text-align: left; }
+    th { color: var(--heading-c); background: var(--table-head); }
+
+    .return { font-size: 14px; margin-top: 32px; display: inline-block; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Файли cookie (Cookies)</h1>
+
+    <p>Cookie — це крихітний файл, який браузер зберігає під час відвідування сайту. На цій сторінці їх зовсім небагато, і потрібні вони лише для роботи та знеособленої статистики.</p>
+
+    <h2>Які cookie тут є</h2>
+    <table>
+      <tr><th>Тип</th><th>Навіщо потрібен</th></tr>
+      <tr><td>Технічно необхідні</td><td>Потрібні для базової роботи сторінки. Без них сайт не може коректно функціонувати, тому вони не підлягають вимкненню.</td></tr>
+      <tr><td>Аналітичні</td><td>Показують знеобличчені метрики: скільки людей відкрило сторінку, з яких пристроїв. Допомагають оцінювати результат.</td></tr>
+      <tr><td>Facebook Pixel (Meta)</td><td>Рекламні та аналітичні cookies від Meta: показують, чи працює реклама, що роблять відвідувачі на сторінці, і дозволяють повертати їм релевантні оголошення.</td></tr>
+    </table>
+
+    <h2>Керування cookie</h2>
+    <p>Заблокувати або видалити cookie-файли можна у налаштуваннях браузера (розділ «Конфіденційність» / «Privacy»). Головна функція сторінки — перехід за кнопкою в Telegram — запрацює і без них.</p>
+
+    <h2>Піксель Facebook (Meta)</h2>
+    <p>Для оцінки ефективності реклами сторінка підключає піксель від Meta. Код встановлює рекламно-аналітичні cookies і фіксує знеобличчені дії: відкриття сторінки, клік по кнопці, тип пристрою.</p>
+    <p>Обробкою цих даних займається Meta за власною <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">Політикою конфіденційності Meta</a>. Відстеження можна вимкнути в налаштуваннях браузера або Facebook.</p>
+
+    <h2>Cookie третіх сторін</h2>
+    <p>Зовнішні сервіси — зокрема піксель Meta і Telegram — можуть ставити власні cookies за власними правилами. Ми не маємо до них доступу й не керуємо ними.</p>
+
+    <a class="return" href="index.html">← Повернутись</a>
+  </div>
+</body>
+</html>

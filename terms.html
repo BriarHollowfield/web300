@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Правила користування</title>
+  <!-- k300 -->
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --surface-top: #0f172a;
+      --surface-bottom: #1e293b;
+      --fg: #cbd5e1;
+      --heading-c: #f1f5f9;
+      --link-c: #38bdf8;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --surface-top: #f8fafc;
+        --surface-bottom: #eef2f7;
+        --fg: #334155;
+        --heading-c: #0f172a;
+        --link-c: #0284c7;
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(to bottom, var(--surface-top), var(--surface-bottom));
+      color: var(--fg);
+      line-height: 1.7;
+      min-height: 100vh;
+      min-height: 100dvh;
+    }
+
+    .wrap { max-width: 720px; padding: 48px 24px 64px; margin: 0 auto; }
+
+    h1 { font-size: 30px; margin-bottom: 24px; color: var(--heading-c); }
+    h2 { font-size: 20px; margin: 28px 0 10px; color: var(--heading-c); }
+    p, li { font-size: 15px; margin-bottom: 12px; }
+    ul { margin-bottom: 12px; padding-left: 22px; }
+    a { text-decoration: none; color: var(--link-c); }
+    a:hover { text-decoration: underline; }
+
+    .return { font-size: 14px; margin-top: 32px; display: inline-block; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Правила користування</h1>
+
+    <p>Відкриваючи цей сайт, ви приймаєте правила, наведені нижче.</p>
+
+    <h2>Що це за сайт</h2>
+    <p>Це перехідна сторінка з однією метою — відправити вас на наш канал у Telegram. Увесь контент публікується вже всередині Telegram.</p>
+
+    <h2>Як можна користуватись</h2>
+    <ul>
+      <li>Не використовуйте сайт для дій, що суперечать закону чи порушують права інших.</li>
+      <li>Спроби зламати сайт або втрутитись у його роботу заборонені.</li>
+    </ul>
+
+    <h2>Контент і переходи</h2>
+    <p>Ми не керуємо платформою Telegram після переходу й не відповідаємо за рішення, ухвалені на підставі матеріалів каналу.</p>
+
+    <h2>Гарантії</h2>
+    <p>Сайт працює за принципом «як є»: без обіцянок безперебійної роботи. Ми можемо змінити або закрити його будь-коли.</p>
+
+    <h2>Оновлення правил</h2>
+    <p>Чинна версія правил — завжди на цій сторінці. Подальше користування сайтом означає згоду з новою редакцією.</p>
+
+    <a class="return" href="index.html">← Повернутись</a>
+  </div>
+</body>
+</html>
